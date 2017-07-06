@@ -1,1 +1,8 @@
-window.alert("hello")
+function cToF(c) {
+  f = c * 9/5 + 32 
+  return f
+}
+function FToc(f) {
+  c = (f - 32)*5/9 
+  return c
+}
